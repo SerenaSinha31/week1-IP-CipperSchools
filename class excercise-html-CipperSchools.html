@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Form</title>
+</head>
+<body>
+    <h1>Sign Up Form</h1>
+    <form>
+        <label for="firstname">Firstname</label>
+        <input type="text" id="firstname" name="firstname" placeholder="firstname" required><br><br>
+        <label for="lastname">Lastname</label>
+        <input type="text" id="lastname" name="lastname" placeholder="lastname" required><br><br>
+        <label for="email">E-mail</label>
+        <input type="email" id="email" name="email" placeholder="email" required><br><br>
+        <label for="password">Password</label>
+        <input type="password" id="password" name="password" placeholder="password" required><br><br>
+
+        <p>Select Gender</p>
+        <label for="male">Male</label>
+        <input type="radio" id="male" name="gender" value="Male"><br><br>
+        <label for="female">Female</label>
+        <input type="radio" id="female" name="gender" value="Female"><br><br>
+        <label for="others">Others</label>
+        <input type="radio" id="others" name="gender" value="Others"><br><br>
+
+
+        <label for="country">Country</label>
+        <select name="country value" id="country">
+            <option value="Nepal">Nepal</option>
+            <option value="USA">USA</option>
+            <option value="China">China</option>
+            <option value="Russia">Russia</option>
+            <option value="Peru">Peru</option>
+        </select>
+
+
+        <p>Write About Yourself  Below</p>
+        <textarea name="" id="" cols="30" rows="10" placeholder="Type Here"></textarea><br><br>
+        
+        <input type="submit" value="Submit">
+        
+
+    </form>
+</body>
+</html>
